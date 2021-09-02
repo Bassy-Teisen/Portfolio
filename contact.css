@@ -5,12 +5,28 @@
 
 }
 
+
 /* Mobile  */
 /* Can make the Mobile querie the default style */
 body {
     height: 100vh;
     background-color: blue;
-   
+
+}
+@media only screen and (min-width: 961px) {
+    body {
+             background-color: gold; 
+        }
+    
+        main > div {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            flex-direction: column;
+        
+        }
+
 }
 
 body > div {
@@ -142,3 +158,10 @@ footer > nav >  div > a {
     padding: .2rem;
     /* margin: .5rem; */
 }
+
+/* Tablet */
+/* @media only screen and (min-width: 481px) and (max-width: 960px) { */
+/* body {
+    background-color: aqua;
+    }
+} */
