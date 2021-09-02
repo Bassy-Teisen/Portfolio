@@ -108,23 +108,30 @@ main > div > p {
     padding: 0.5rem;
 }
 
-article {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+main h3 {
+    margin-top: 1rem;
 }
 
-article > div {
+article {
     display: flex;
-    justify-content: flex-end;
-    width: 500px;
-    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+article > a {
+    display: flex;
+    padding: .5rem;
+}
+
+article > a > img {
+    width: 100px;
 }
 
 article > p {
-    
-    /* width: 500px; */
-    padding: 1rem;
+  
+    padding: .5rem;
 }
 
 
@@ -164,6 +171,7 @@ footer > nav >  div > a {
     padding: .2rem;
     /* margin: .5rem; */
 }
+
 
 /* 
 /* Tablet */
