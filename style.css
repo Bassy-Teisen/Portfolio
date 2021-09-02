@@ -1,0 +1,260 @@
+/* :root { */
+    /* --base-height: 300px; */
+ /* ---primary-color:  ; */
+/* } */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Mobile  */
+/* Can make the Mobile querie the default style */
+body {
+    height: 100vh;
+    background-color: blue;
+   
+}
+
+body > div {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto 100px ;
+   
+}   
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header > p {
+    /* display: flex; */
+    margin: 10px;
+    
+}
+
+header > nav {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header > nav > a {
+    padding: .3rem;
+}
+main {
+    height: 100%; 
+    display: flex;
+    flex-direction: column ;
+    min-height: auto;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+main > h2 {
+    
+    padding: .4rem;
+}
+
+main > img {
+    max-width: 500px;
+    
+}
+
+main > h1 {
+    
+    padding: .3rem;
+}
+
+main > p {
+    display: flex;
+    justify-content: center;
+    padding: .3rem;
+    margin: 0 .5rem 0 .5rem;
+    max-width: 40rem;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+main >  h3 {
+    color: red;
+}
+
+#resume {
+    max-width: 150px;
+}
+
+main > div > p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+article > div {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    padding: 1rem;
+}
+
+article > p {
+    
+    /* width: 500px; */
+    padding: 1rem;
+}
+
+
+footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+    background-color: grey;
+    width: 100%;
+}
+
+
+
+footer > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}   
+
+footer > nav > img {
+    padding: 1rem;
+}
+
+
+footer > nav > div {
+    /* margin: 40px 10px 0 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+   padding: .5rem 3rem;
+}
+
+footer > nav >  div > a {
+    padding: .2rem;
+    /* margin: .5rem; */
+}
+
+/* 
+/* Tablet */
+/* @media only screen and (min-width: 481px) and (max-width: 960px) { */
+/* body {
+    background-color: aqua;
+    }
+} */
+
+/* Desktop */
+/* @media only screen and (min-width: 961px) {
+body {
+    /* background-color: gold; */
+    /* } */
+/* }  */
+/* 
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav, header, main, section {
+    width: 100%;
+    height: var(--base-height);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  
+}
+
+nav {
+    background-color: #5995Da;
+    height: 80px;
+
+}
+
+header {
+    background-color: #b2d6ff;
+/* } */
+
+
+
+/* #signup { 
+    background-color: #d6e9fe;
+    
+   
+}
+
+#feature1 {
+    background-color: #f5cf8e;
+}
+
+#feature2 {
+    background-color: #f09a9d;
+}
+
+#feature3 {
+    background-color: #c8c6fa;
+}
+
+/* Tablet */
+/* @media only screen and (min-width: 481px) and (max-width: 960px) {
+    #signup, .feature {
+        width: calc(100% / 3); */
+
+    /* } */
+
+/* } */
+
+/* Desktop */
+/* @media only screen and (min-width: 961px) {
+    article {
+        width: 1080px;
+        margin: 0 auto;
+    }
+    header {
+        height: 400px;
+
+    }
+    .feature {
+        height: 600px;
+        width: 33.3%;
+    }
+    main {
+        order: 3; */
+    /* } */
+    /* #signup {
+        order: 2;
+        width: 100%;
+    /* } */
+    /* #feature2 {
+        order: 1; */ 
+       
+/* }  */
