@@ -31,7 +31,7 @@ header{
     height: 100px;
 }
 
-header > p {
+header > a {
     /* display: flex; */
     margin: 10px;
     
@@ -89,7 +89,7 @@ main >  h3 {
 
 #resume {
     width: 100px;
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
 }
 
 main > div {
@@ -97,7 +97,7 @@ main > div {
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
-
+    margin-top: 10px;
 }
 
 main > div > p {
@@ -110,7 +110,9 @@ main h3 {
     margin-top: 1rem;
 }
 
-
+div > a > p {
+    padding-left:20px;
+}
 
 footer {
     display: flex;
@@ -149,6 +151,37 @@ footer > nav >  div > a {
     /* margin: .5rem; */
 }
 
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+ body {
+    background-color: aqua;
+ }
+    
+    main > p {
+        border: 2px solid black;
+        padding: .5rem;
+        margin: 1.5rem auto 1.5rem;
+        align-self: start;
+        max-width: 90%;
+    }    
+
+
+
+
+
+    main > div {flex-wrap: nowrap;
+        width: 90% ;
+        align-self: flex-start;
+        border: 2px black solid;
+        padding: .5rem;
+        margin: 1.5rem auto 1.5rem;
+    }
+}
+
+
+
+
+/* Desktop */
 
 @media only screen and (min-width: 961px) {
     body {
@@ -163,14 +196,17 @@ footer > nav >  div > a {
         align-self: flex-start;
         border: 2px black solid;
         padding: .5rem;
-        margin: 0 18%;
+        margin: 1.5rem 18%;
     }
 
     main > p {
         border: 2px solid black;
         padding: .5rem;
         margin: 0 18%;
+        align-self: start;
+        max-width: 100%;
     }
+    
 }
 
 /* Tablet */

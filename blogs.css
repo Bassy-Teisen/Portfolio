@@ -35,6 +35,8 @@ header > p {
     
 }
 
+
+
 header > nav {
     margin: 20px;
     display: flex;
@@ -80,15 +82,12 @@ main > p {
 }
 
 main > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 0 2rem;
-}
-
-main >  h3 {
-    color: red;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: nowrap; */
+    /* width: 90%; */
+    padding: 2rem ;
 }
 
 
@@ -97,32 +96,39 @@ main > div > p {
     align-items: flex-start;
     justify-content: center;
     padding: 0.5rem;
+    
 }
 
 main h3 {
-    margin-top: 1rem;
+    padding: 0.2rem;
 }
 
 article {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    /* justify-content: center; */
+    /* align-items: center; */
     
 }
 
 article > a {
     display: flex;
     padding: .5rem;
+    justify-content: center;
 }
 
-article > a > img {
-    width: 100px;
+.blogs {
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    
 }
 
 article > p {
-  
+    /* color: brown; */
     padding: .5rem;
+    margin: .5rem;
+
 }
 
 
@@ -163,18 +169,57 @@ footer > nav >  div > a {
     /* margin: .5rem; */
 }
 
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    body {
+       background-color: aqua;
+    }
+       
+       main > p {
+           border: 2px solid black;
+           padding: .5rem;
+           margin: 1.5rem auto 1.5rem;
+           /* align-self: start; */
+           max-width: 90%;
+       }    
+   
+       main > div {flex-wrap: nowrap;
+           width: 90% ;
+           /* display: inline-block; */
+           /* align-self: flex-start; */
+           border: 2px black solid;
+           padding: .5rem;
+           margin: 1.5rem auto 1.5rem;
+       }
+
+       .blogs {
+           width: 90%;
+           flex-wrap: wrap;
+           flex-direction: column-reverse;
+           
+       }
+       
+       article {
+           flex-wrap: nowrap;
+           flex-direction: row-reverse;
+       }
+   }
+
+
+
 @media only screen and (min-width: 961px) {
     body {
              background-color: gold; 
         }
-    main {
-        /* display: grid; */
+    main > div {
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
     }
     main > div > article {
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         flex-direction: column;
         /* width: 50% ; */
-        align-self: flex-start;
+        /* align-self: flex-start; */
         border: 2px black solid;
         padding: .5rem;
         /* margin: 0 18%; */
@@ -190,4 +235,14 @@ footer > nav >  div > a {
         padding: .5rem;
         margin: 0 18%;
     }
-}
+
+    article > a  {
+        flex-wrap: wrap;
+        color: crimson;
+        margin: 0;
+
+    }
+    .blogs {
+        width: 100%;
+    }
+} 

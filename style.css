@@ -142,6 +142,60 @@ footer > nav >  div > a {
 }
 
 
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    body {
+       background-color: aqua;
+    }
+       
+       main > p {
+           border: 2px solid black;
+           padding: .5rem;
+           margin: 1.5rem auto 1.5rem;
+           align-self: start;
+           max-width: 90%;
+       }    
+ 
+       main > div {flex-wrap: nowrap;
+           width: 90% ;
+           align-self: flex-start;
+           border: 2px black solid;
+           padding: .5rem;
+           margin: 1.5rem auto 1.5rem;
+       }
+}
+   
+   
+   
+   
+   
+   /*Desktop */
+@media only screen and (min-width: 961px) {
+       body {
+                background-color: gold; 
+           }
+       main {
+           /* display: grid; */
+       }
+       main > div {
+           flex-wrap: nowrap;
+           width: 50% ;
+           align-self: flex-start;
+           border: 2px black solid;
+           padding: .5rem;
+           margin: 1.5rem 18%;
+       }
+   
+       main > p {
+           border: 2px solid black;
+           padding: .5rem;
+           margin: 0 18%;
+           align-self: start;
+           max-width: 100%;
+       }
+       
+   }
+
 /* 
 /* Tablet */
 /* @media only screen and (min-width: 481px) and (max-width: 960px) { */
