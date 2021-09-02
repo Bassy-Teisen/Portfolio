@@ -93,13 +93,7 @@ main > div {
     padding: 0 2rem;
 }
 
-main >  h3 {
-    color: red;
-}
 
-#resume {
-    max-width: 150px;
-}
 
 main > div > p {
     display: flex;
@@ -108,31 +102,6 @@ main > div > p {
     padding: 0.5rem;
 }
 
-main h3 {
-    margin-top: 1rem;
-}
-
-article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    
-}
-
-article > a {
-    display: flex;
-    padding: .5rem;
-}
-
-article > a > img {
-    width: 100px;
-}
-
-article > p {
-  
-    padding: .5rem;
-}
 
 
 footer {
