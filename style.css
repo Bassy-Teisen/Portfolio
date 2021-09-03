@@ -16,7 +16,7 @@
 body {
     height: 100vh;
     background-color: blue;
-   
+    background-image: url("./testocean_1.jpg");
 }
 
 body > div {
@@ -59,7 +59,7 @@ main {
     justify-content: flex-start;
     width: 100%;
     align-items: center;
-    padding: 2rem 2rem;
+    margin: 2rem 2rem;
 }
 
 main > h2 {
@@ -141,6 +141,11 @@ footer > nav >  div > a {
     /* margin: .5rem; */
 }
 
+.hover:hover, a:hover {
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    background-color: cornsilk;
+}
 
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 960px) {

@@ -55,7 +55,7 @@ main {
     justify-content: flex-start;
     width: 100%;
     align-items: center;
-    padding: 2rem 2rem;
+    margin: 2rem 2rem;
 }
 
 main > h2 {
@@ -149,6 +149,12 @@ footer > nav > div {
 footer > nav >  div > a {
     padding: .2rem;
     /* margin: .5rem; */
+}
+
+.hover:hover, a:hover {
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    background-color: cornsilk;
 }
 
 /* Tablet */

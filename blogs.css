@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 
@@ -10,7 +11,8 @@
 body {
     height: 100vh;
     background-color: blue;
-   
+    background-image: url("./white2.jpg");
+    
 }
 
 body > div {
@@ -29,7 +31,7 @@ header{
     height: 100px;
 }
 
-header > p {
+header > a {
     /* display: flex; */
     margin: 10px;
     
@@ -55,7 +57,7 @@ main {
     justify-content: flex-start;
     width: 100%;
     align-items: center;
-    padding: 2rem 2rem;
+    margin: 2rem 2rem;
 }
 
 main > h2 {
@@ -90,6 +92,9 @@ main > div {
     padding: 2rem ;
 }
 
+p {
+    color: black;
+}
 
 main > div > p {
     display: flex;
@@ -101,6 +106,7 @@ main > div > p {
 
 main h3 {
     padding: 0.2rem;
+    color: black;
 }
 
 article {
@@ -169,6 +175,13 @@ footer > nav >  div > a {
     /* margin: .5rem; */
 }
 
+.hover:hover, a:hover {
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    background-color: black;
+}
+
+
 @media only screen and (min-width: 481px) and (max-width: 960px) {
     body {
        background-color: aqua;
@@ -207,6 +220,9 @@ footer > nav >  div > a {
 
 
 @media only screen and (min-width: 961px) {
+    /* .blogs img {
+        width: 100px;
+    } */
     body {
              background-color: gold; 
         }
@@ -242,7 +258,16 @@ footer > nav >  div > a {
         margin: 0;
 
     }
+
+    article {
+        max-width: 200px;
+    }
+
     .blogs {
+        width: 100%;
+    }
+
+    .blogs img {
         width: 100%;
     }
 } 
