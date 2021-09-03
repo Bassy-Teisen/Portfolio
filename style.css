@@ -1,9 +1,3 @@
-/* :root { */
-    /* --base-height: 300px; */
- /* ---primary-color:  ; */
-/* } */
-
-
 
 * {
     margin: 0;
@@ -13,12 +7,9 @@
 }
 
 /* Mobile  */
-/* Can make the Mobile querie the default style */
 body {
     height: 100vh;
-    background-image: url("./white2.jpg");
-
-   
+    background-image: url("./white2.jpg"); 
 }
 
 body > div {
@@ -26,11 +17,9 @@ body > div {
     height: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 50px auto 100px ;
-   
 }   
 
 header{
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,8 +28,6 @@ header{
 
 header > a {
     margin: 10px;
-    
-    
 }
 
 header > nav {
@@ -51,7 +38,6 @@ header > nav {
     border: 2px silver solid;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
-
 }
 
 
@@ -61,13 +47,13 @@ header > nav > a {
     color: black;
     font-weight: bold;
 }
+
 main {
     display: flex;
     flex-direction: column ;
     align-items: center;
     margin-top: 2rem;
-    padding: .5rem;
-          
+    padding: .5rem;         
 }
 
 main > h2 {
@@ -78,7 +64,6 @@ main > h2 {
 
 main > img {
     max-width: 500px;
-    
 }
 
 main > h1 {
@@ -105,14 +90,11 @@ footer {
     opacity: .7;
 }
 
-
-
 footer > nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    
 }   
 
 footer > nav > img {
@@ -126,7 +108,6 @@ footer > nav > div {
     margin-right: 2rem;
 }
 
-
 footer > nav >  div > a {
     display: flex;
     flex-direction: column;
@@ -134,7 +115,6 @@ footer > nav >  div > a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-
 }
 
 .hover:hover, a:hover, .contact:hover {
@@ -146,127 +126,20 @@ footer > nav >  div > a {
 
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-    body {
-       background-color: aqua;
-    }
-       
-       main > p {
+    
+    main > p {
            margin: 1.5rem auto 1.5rem;
            max-width: 90%;
-       }    
- 
-      
+    }        
 }
    
-   
-   
-   
-   
-   /*Desktop */
+     
+/*Desktop */
 @media only screen and (min-width: 961px) {
-       body {
-                background-color: gold; 
-           }
-      
        
-   
-       main > p {
+    main > p {
            padding: .5rem;
            margin: 0 18%;
-       }
-       
-   }
-
-/* 
-/* Tablet */
-/* @media only screen and (min-width: 481px) and (max-width: 960px) { */
-/* body {
-    background-color: aqua;
     }
-} */
-
-/* Desktop */
-/* @media only screen and (min-width: 961px) {
-body {
-    /* background-color: gold; */
-    /* } */
-/* }  */
-/* 
-article {
-    display: flex;
-    flex-wrap: wrap;
 }
 
-nav, header, main, section {
-    width: 100%;
-    height: var(--base-height);
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-  
-}
-
-nav {
-    background-color: #5995Da;
-    height: 80px;
-
-}
-
-header {
-    background-color: #b2d6ff;
-/* } */
-
-
-
-/* #signup { 
-    background-color: #d6e9fe;
-    
-   
-}
-
-#feature1 {
-    background-color: #f5cf8e;
-}
-
-#feature2 {
-    background-color: #f09a9d;
-}
-
-#feature3 {
-    background-color: #c8c6fa;
-}
-
-/* Tablet */
-/* @media only screen and (min-width: 481px) and (max-width: 960px) {
-    #signup, .feature {
-        width: calc(100% / 3); */
-
-    /* } */
-
-/* } */
-
-/* Desktop */
-/* @media only screen and (min-width: 961px) {
-    article {
-        width: 1080px;
-        margin: 0 auto;
-    }
-    header {
-        height: 400px;
-
-    }
-    .feature {
-        height: 600px;
-        width: 33.3%;
-    }
-    main {
-        order: 3; */
-    /* } */
-    /* #signup {
-        order: 2;
-        width: 100%;
-    /* } */
-    /* #feature2 {
-        order: 1; */ 
-       
-/* }  */

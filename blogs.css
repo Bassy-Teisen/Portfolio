@@ -6,12 +6,9 @@
 }
 
 /* Mobile  */
-/* Can make the Mobile querie the default style */
 body {
     height: 100vh;
-    background-image: url("./white2.jpg");
-
-   
+    background-image: url("./white2.jpg"); 
 }
 
 body > div {
@@ -23,7 +20,6 @@ body > div {
 }   
 
 header{
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,8 +28,6 @@ header{
 
 header > a {
     margin: 10px;
-    
-    
 }
 
 header > nav {
@@ -44,9 +38,7 @@ header > nav {
     border: 2px silver solid;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
-
 }
-
 
 header > nav > a {
     padding: .3rem;
@@ -54,13 +46,13 @@ header > nav > a {
     color: black;
     font-weight: bold;
 }
+
 main {
     display: flex;
     flex-direction: column ;
     align-items: center;
     margin-top: 2rem;
-    padding: .5rem;
-          
+    padding: .5rem;         
 }
 
 main > h2 {
@@ -70,8 +62,7 @@ main > h2 {
 }
 
 main > img {
-    max-width: 500px;
-    
+    max-width: 500px; 
 }
 
 main > h1 {
@@ -91,8 +82,6 @@ main > p {
     background-color: whitesmoke;
 }
 
-
-
 main h3 {
     padding: 0.2rem;
     color: black;
@@ -106,35 +95,31 @@ main > div {
 article {
     display: flex;
     flex-wrap: wrap;
-    /* padding: .3rem; */
-    /* margin: 0 .5rem 0 .5rem; */
     border: 2px silver solid;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
     color: black;
     font-size: 1.3rem;
-    background-color: whitesmoke;
-    
-    
+    background-color: whitesmoke;  
+    margin: 0.5rem; 
 }
 
 article > a {
     display: flex;
     padding: .5rem;
     justify-content: center;
+ 
 }
 
 article > p {
     padding: .5rem;
     margin: .5rem;
-
 }
 
 .blogs {
     width: 50%;
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    
 }
 
 footer {
@@ -144,14 +129,11 @@ footer {
     opacity: .7;
 }
 
-
-
 footer > nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    
 }   
 
 footer > nav > img {
@@ -165,7 +147,6 @@ footer > nav > div {
     margin-right: 2rem;
 }
 
-
 footer > nav >  div > a {
     display: flex;
     flex-direction: column;
@@ -173,8 +154,8 @@ footer > nav >  div > a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-
 }
+
 .hover:hover, a:hover, .contact:hover {
     border: 1px solid black;
     box-shadow: 2px 2px 2px silver;
@@ -182,6 +163,7 @@ footer > nav >  div > a {
     opacity: .7;
 }
 
+/* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 960px) {  
     
     main > p {
@@ -206,8 +188,11 @@ footer > nav >  div > a {
         flex-wrap: nowrap;
         flex-direction: row-reverse;
     }
-}
 
+    article > a {
+    justify-content: flex-end;
+    }
+}
 
 /* Desktop */
 @media only screen and (min-width: 961px) {
