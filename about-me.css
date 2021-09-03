@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,15 +6,13 @@
 
 }
 
-
 /* Mobile  */
 /* Can make the Mobile querie the default style */
 body {
     height: 100vh;
     background-color: blue;
-
+   
 }
-
 
 body > div {
     display: grid;
@@ -31,8 +30,7 @@ header{
     height: 100px;
 }
 
-header > a {
-    /* display: flex; */
+header > p {
     margin: 10px;
     
 }
@@ -48,14 +46,12 @@ header > nav > a {
     padding: .3rem;
 }
 main {
-    height: 100%; 
     display: flex;
     flex-direction: column ;
-    min-height: auto;
-    justify-content: flex-start;
-    width: 100%;
     align-items: center;
-    margin: 2rem 2rem;
+    margin-top: 2rem;
+    padding: .5rem;
+          
 }
 
 main > h2 {
@@ -74,18 +70,10 @@ main > h1 {
 }
 
 main > p {
-    display: flex;
-    justify-content: center;
     padding: .3rem;
-    margin: 0 .5rem 0 .5rem;
-    max-width: 40rem;
-    background-color: coral;
+    border: 2px black solid;
 }
 
-
-main >  h3 {
-    color: red;
-}
 
 #resume {
     width: 100px;
@@ -94,33 +82,25 @@ main >  h3 {
 
 main > div {
     display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-top: 10px;
+    border: 2px black solid;
 }
 
 main > div > p {
     padding: 0.5rem;
     background-color: chartreuse;
-    max-width: 40rem;
 }
-
-main h3 {
-    margin-top: 1rem;
-}
-
 div > a > p {
     padding-left:20px;
 }
 
+
+
+
 footer {
     display: flex;
-    justify-content:space-between;
     align-items: center;
-    height: 100px;
     background-color: grey;
-    width: 100%;
 }
 
 
@@ -137,18 +117,11 @@ footer > nav > img {
 }
 
 
-footer > nav > div {
-    /* margin: 40px 10px 0 10px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-   padding: .5rem 3rem;
-}
 
 footer > nav >  div > a {
-    padding: .2rem;
-    /* margin: .5rem; */
+    display: flex;
+    flex-direction: column;
+    padding: .2rem 2rem;
 }
 
 .hover:hover, a:hover {
@@ -159,61 +132,48 @@ footer > nav >  div > a {
 
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
- body {
-    background-color: aqua;
- }
-    
-    main > p {
-        border: 2px solid black;
-        padding: .5rem;
-        margin: 1.5rem auto 1.5rem;
-        align-self: start;
-        max-width: 90%;
-    }    
-
-
-
-
-
-    main > div {flex-wrap: nowrap;
+    body {
+       background-color: aqua;
+    }
+       
+       main > p {
+           margin: 1.5rem auto 1.5rem;
+           max-width: 90%;
+       }    
+       main > div {
         width: 90% ;
-        align-self: flex-start;
         border: 2px black solid;
         padding: .5rem;
         margin: 1.5rem auto 1.5rem;
     }
+    
+      
 }
-
-
-
-
-/* Desktop */
-
+   
+   
+   
+   
+   
+   /*Desktop */
 @media only screen and (min-width: 961px) {
     body {
-             background-color: gold; 
-        }
-    main {
-        /* display: grid; */
-    }
-    main > div {
-        flex-wrap: nowrap;
-        width: 50% ;
-        align-self: flex-start;
-        border: 2px black solid;
-        padding: .5rem;
-        margin: 1.5rem 18%;
-    }
-
-    main > p {
-        border: 2px solid black;
-        padding: .5rem;
-        margin: 0 18%;
-        align-self: start;
-        max-width: 100%;
+                background-color: gold; 
     }
     
+       
+   
+    main > p {
+        padding: .5rem;
+        margin: 0 18%;
+    }
+    main > div {
+        width: 50% ;
+        align-self: flex-start;
+        padding: .5rem;
+        margin: 1.5rem 18%;
+    }   
 }
+
 
 /* Tablet */
 /* @media only screen and (min-width: 481px) and (max-width: 960px) { */
@@ -221,3 +181,10 @@ footer > nav >  div > a {
     background-color: aqua;
     }
 } */
+
+
+/* tablet */
+
+
+/* desktop */
+

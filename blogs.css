@@ -137,14 +137,10 @@ article > p {
 
 }
 
-
 footer {
     display: flex;
-    justify-content:space-between;
     align-items: center;
-    height: 100px;
     background-color: grey;
-    width: 100%;
 }
 
 
@@ -161,20 +157,12 @@ footer > nav > img {
 }
 
 
-footer > nav > div {
-    /* margin: 40px 10px 0 10px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-   padding: .5rem 3rem;
-}
 
 footer > nav >  div > a {
-    padding: .2rem;
-    /* margin: .5rem; */
+    display: flex;
+    flex-direction: column;
+    padding: .2rem 2rem;
 }
-
 .hover:hover, a:hover {
     border: 1px solid black;
     box-shadow: 2px 2px 3px black;
