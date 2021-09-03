@@ -10,7 +10,8 @@
 /* Can make the Mobile querie the default style */
 body {
     height: 100vh;
-    background-color: blue;
+    background-image: url("./white2.jpg");
+
    
 }
 
@@ -30,21 +31,31 @@ header{
     height: 100px;
 }
 
-header > p {
+header > a {
     margin: 10px;
+    
     
 }
 
 header > nav {
-    margin: 20px;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    border: 2px silver solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+
 }
+
 
 header > nav > a {
     padding: .3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
+
 main {
     display: flex;
     flex-direction: column ;
@@ -55,7 +66,8 @@ main {
 }
 
 main > h2 {
-    
+    color: black;
+    font-weight: bold;
     padding: .4rem;
 }
 
@@ -65,15 +77,21 @@ main > img {
 }
 
 main > h1 {
-    
+    color: black;
+    font-weight: bold;
     padding: .3rem;
 }
 
 main > p {
     padding: .3rem;
-    border: 2px black solid;
+    margin: 0 .5rem 0 .5rem;
+    border: 2px silver solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+    color: black;
+    font-size: 1.3rem;
+    background-color: whitesmoke;
 }
-
 
 #resume {
     width: 100px;
@@ -83,15 +101,29 @@ main > p {
 main > div {
     display: flex;
     margin-top: 10px;
-    border: 2px black solid;
+    padding: .3rem;
+    margin: 0 .5rem 0 .5rem;
+    border: 2px silver solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+    color: black;
+    font-size: 1.3rem;
+    background-color: whitesmoke;
 }
 
 main > div > p {
     padding: 0.5rem;
-    background-color: chartreuse;
-}
-div > a > p {
-    padding-left:20px;
+    
+
+}   
+
+div > a > h4 {
+    display: flex;
+    justify-content: center;
+    color: red;
+    
+
+
 }
 
 
@@ -101,6 +133,7 @@ footer {
     display: flex;
     align-items: center;
     background-color: grey;
+    opacity: .7;
 }
 
 
@@ -110,24 +143,36 @@ footer > nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    
 }   
 
 footer > nav > img {
     padding: 1rem;
 }
 
+footer > nav > div {
+    border: 2px silver solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+    margin-right: 2rem;
+}
 
 
 footer > nav >  div > a {
     display: flex;
     flex-direction: column;
-    padding: .2rem 2rem;
+    padding: .2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
 }
 
-.hover:hover, a:hover {
+.hover:hover, a:hover, .contact:hover {
     border: 1px solid black;
-    box-shadow: 2px 2px 3px black;
-    background-color: cornsilk;
+    box-shadow: 2px 2px 2px silver;
+    background-color: silver;
+    opacity: .7;
 }
 
 /* Tablet */
@@ -142,7 +187,6 @@ footer > nav >  div > a {
        }    
        main > div {
         width: 90% ;
-        border: 2px black solid;
         padding: .5rem;
         margin: 1.5rem auto 1.5rem;
     }
