@@ -95,7 +95,8 @@ main > p {
     - Links to my email and phone number.  */
 main > nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     color: black;
     font-weight: bold;
     margin-top: 1rem;
@@ -146,11 +147,14 @@ footer > nav >  div > a {
     font-weight: bold;
 }
 
-.hover:hover, a:hover, .contact:hover {
-    border: 1px solid black;
+ a:hover, .contact:hover {
     box-shadow: 2px 2px 2px silver;
     background-color: silver;
     opacity: .7;
+}
+.link:hover {
+    border: 1px solid black;
+
 }
 
 /* Tablet */

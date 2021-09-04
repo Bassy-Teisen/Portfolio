@@ -144,11 +144,16 @@ footer > nav >  div > a {
 }
 
 /*  Creates a hover effect when moused over, I used this to indicate links. */
-.hover:hover, a:hover, .contact:hover {
+ a:hover, .contact:hover {
     border: 1px solid black;
     box-shadow: 2px 2px 2px silver;
     background-color: silver;
     opacity: .7;
+}
+
+.link:hover {
+    border: 1px solid black;
+
 }
 
 /* Tablet */

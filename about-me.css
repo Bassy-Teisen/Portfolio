@@ -162,13 +162,17 @@ footer > nav >  div > a {
     font-weight: bold;
 }
 
-.hover:hover, a:hover, .contact:hover {
+a:hover, .contact:hover {
     border: 1px solid black;
     box-shadow: 2px 2px 2px silver;
     background-color: silver;
     opacity: .7;
 }
 
+.link:hover {
+    border: 1px solid black;
+
+}
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
 
