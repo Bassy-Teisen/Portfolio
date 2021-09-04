@@ -58,6 +58,7 @@ header > nav > a {
 /*  Defines the text styling for all paragraphs. */
 p, h1, h2, h3 {
     font-family: Tahoma, Verdana, sans-serif;
+    font-size: 1.3rem;
 }
 
 main {
@@ -85,12 +86,16 @@ main > h1 {
     padding: .3rem;
 }
 /*  The main paragraph component is applied on all web pages.
-    - Inside the <main> symantic element
-    - Styled this component uniformially acrros all four web page
+    - Inside the <main> symantic element.
+    - Text is inside of <p> tag.
+    - This component is uniform acrros all four web pages.
+    - The background is a light color to ensure text readability. 
     - Made the background a light color and text black for readablilty.
-    - styled the text for good readability.
-    - Box-shadow used to define the text area. */
-main > p {
+    - Applied Tahoma font-family for easy readability.
+    - Box-shadow used to define the text area. 
+    - Applied font-size 1.2rem for good readability */
+
+    main > p {
     padding: .3rem;
     margin: 0 .5rem 0 .5rem;
     border: 2px silver solid;
