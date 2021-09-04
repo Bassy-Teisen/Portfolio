@@ -1,28 +1,22 @@
-<!-- This is the HMTL DOCTYPE decleration, it defines which version of HTML it is to the web browser.    -->
 <!DOCTYPE html>
-<!-- This identifys the language type of the text.  -->
 <html lang="en">
-<!-- The head element contains the meta data and is not displayed on the screen.  -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- The title tag is presented in the browser title bar.
-    Also it is used by search engines and is crusal in SEO results. -->
-    <!-- The link for the CSS stylesheet. -->
     <title>blogs</title>
     <link rel="stylesheet" href="./blogs.css">
 </head>
 
-<!-- This is the element that contains all the veiwer screen visible content.  -->
 <body>
-    <!-- Created this div as a container for the grid layout.  -->
     <div >    
-        <!-- This element contains navigation links to the other pages.   -->
         <header>
+            <!-- Graphic component6, <a> tag wraps around the <img> tag to create a link back to home page -->
             <a class="link" href="./index.html">
                 <img src="./temp.png" alt="" >
             </a> 
+            <!-- Graphic component2, the <nav> tag is a container around the <a> tags which are links to the other pages.
+                 This enables me to stack them in a column. -->            
             <nav>
                 <a class="link" href="./index.html">Home</a>
                 <a class="link" href="./about-me.html">About</a>
@@ -30,27 +24,27 @@
             </nav>
         </header>
         
-        <!-- This element contains the baulk of the content, such as:
-            - A header to define the current page.
-            - The home page image.
-            - A brief prargraph about myself and my work.   -->
         <main>
             <h1>Blogs</h1>
             <a href="./contact.html">
             <img src="./s-cat.jpg" alt=""> 
-            <h6>Latest Blog</h6>
+            <h4>Latest Blog</h4>
             </a>
             <h2>Sebastian’s Latest Innovation in Web Design Blog</h2>
-            <p>For my reviews and tips on the latest in technology and innovation in web design, check out his weeks blog. If you’d like to see any of my previous blogs just hit the link below.</p>
             
-            <!-- I used a div to contain the group of blog articles. -->
+            <!-- Text component1, This component contains the main paragraph of this page and is the same on all four pages.  -->
+            <p>For my reviews and tips on the latest in technology and innovation in web design, check out this weeks blog. If you’d like to see any of my previous blogs just hit the link below.</p>
+            
+            <!-- Text component3, this <div> is a conainer for the 5 indivdual blog post. 
+                Inside the <div> the individual blogs are contained in an <article> element.
+                Within this is a <p> tag with a snipit of the acutual blog.   -->
             <div>
-            <!-- These five articles contain a brief paragraph about their individual blogs, the date they were posted
-            and an image as link to the actual blog post. -->
-            <article>   
+            <article> 
+                
+                <!-- Graphic component5, the <a> tag is wrapped around the <p>, <h3> and <img> tags as a link to the actual blog. -->
                 <a class="blogs" href="./contact.html">
                     <p> Sebastian H. Teisen | Published September 4, 2021  </p>
-                    <h3>Editing cats onto waves in space</h3>
+                    <h3>Photoshopping cats onto waves in space</h3>
                     <img src="./s-cat.jpg" alt="" >
                 </a>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus fugit cumque dolorem obcaecati, sequi ea eius corrupti rem quaerat iusto sunt harum excepturi consequuntur dignissimos soluta veniam doloremque incidunt expedita.
@@ -92,10 +86,11 @@
             </div>    
         </main>    
         
-        <!-- This element contains links to other pages, who the author is and copyright data -->
         <footer>
             <nav>
                 <img src="./temp.png" alt="">
+                <!-- Graphic component1, the <div> tag is a container around the <a> tags which are links to the other pages.
+                    This enables me to stack them in a column. -->                
                 <div>
                 <a class="link" href="./index.html">Home</a>
                 <a class="link" href="./about-me.html">About</a>

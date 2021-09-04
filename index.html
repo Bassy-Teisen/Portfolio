@@ -1,50 +1,40 @@
-<!-- This is the HMTL DOCTYPE decleration, it defines which version of HTML it is to the web browser.    -->
 <!DOCTYPE html>
-<!-- This identifys the language type of the text.  -->
 <html lang="en">
-<!-- The head element contains the meta data and is not displayed on the screen.  -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- The title tag is presented in the browser title bar.
-    Also it is used by search engines and is crusal in SEO results. -->
     <title>sebastians-portfolio</title>
-    <!-- The link for the CSS stylesheet. -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<!-- This is the element that contains all the veiwer screen visible content.  -->
 <body>
-    <!-- Created this div as a container for the grid layout.  -->
     <div>
-        <!-- This element contains navigation links to the other pages.   -->
         <header>
-            <a href="./index.html">
-                <img class="link"  src="./temp.png" alt="" >
-            </a> 
+            <!-- Graphic component2, the <nav> tag is a container around the <a> tags which are links to the other pages.
+                 This enables me to stack them in a column. -->              
             <nav>
                 <a class="link" href="./contact-me.html">Contact</a>
                 <a class="link" href="./about-me.html">About</a>
                 <a class="link" href="./blogs.html">Blogs</a>
             </nav>
         </header>
-       
-       <!-- This element contains the baulk of the content, such as:
-            - A header to define the current page.
-            - The home page image.
-            - A brief prargraph about myself and my work.   -->
+
         <main>
             <h1>Home</h1>
             <img src="./s-cat.jpg" alt="Picture"> 
             <h2>Sebastian Teisen</h2>
+                
+            <!-- Text component1: This component contains the main paragraph of this page and is the same on all four pages.  -->
             <p>I am aspiring full stack developer. Previously I was the CEO of Harman Construction. Now I have become dedicated to my studies with coder academy, in the hope of gaining the necessary skills, to achieve my goal of landing the job.</p>
         </main>    
         
-        <!-- This element contains links to other pages, who the author is and copyright data -->
         <footer>
             <nav>
                 <img src="./temp.png" alt="">
+                
+                <!-- Graphic component1, the <div> tag is a container around the <a> tags which are links to the other pages.
+                    This enables me to stack them in a column. -->
                 <div>
                     <a class="link" href="./contact-me.html">About</a>
                     <a class="link" href="./about-me.html">Contact</a>

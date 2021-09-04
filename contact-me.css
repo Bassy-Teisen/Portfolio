@@ -26,10 +26,12 @@ header{
     height: 100px;
 }
 
+/*  Graphic component2, component6, gave individual links some margin. */
 header > a {
     margin: 10px;  
 }
 
+/* Graphic compnent2, component6, this conatins the style for the page header nav links */
 header > nav {
     margin: 2rem;
     display: flex;
@@ -40,6 +42,7 @@ header > nav {
     box-shadow: 1px 1px 1px;
 }
 
+/*  Graphic component2, component6, style for the individual links. */
 header > nav > a {
     padding: .3rem;
     text-decoration: none;
@@ -47,9 +50,10 @@ header > nav > a {
     font-weight: bold;
 }
 
+/* Text compont 1, 2, 3, Defines the text styling for all component paragraphs and <h> tags. */
 p, h1, h2, h3 {
     font-family: Tahoma, Verdana, sans-serif;
-    
+    font-style: normal;
 }
 
 main {
@@ -67,7 +71,9 @@ main > h2 {
 }
 
 main > img {
-    max-width: 500px;   
+    max-width: 80%;   
+    margin-bottom: 1rem;
+
 }
 
 main > h1 {
@@ -76,14 +82,18 @@ main > h1 {
     padding: .3rem;
 }
 
+/*  Text component1, the main paragraph component is applied on all web pages.
+    - Made the background a light color and text black for readablilty.
+    - Applied Tahoma font-family for easy readability.
+    - Box-shadow used to define the text area. 
+    - Applied font-size 1.2rem for good readability */
 main > p {
     padding: .3rem;
-    margin: 0 .5rem 0 .5rem;
+    margin: .5rem 0 .5rem;
     border: 2px silver solid;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
     color: black;
-    font-size: 1.3rem;
     background-color: whitesmoke;
 }
 
@@ -147,17 +157,20 @@ footer > nav >  div > a {
     font-weight: bold;
 }
 
+/* Graphic component 1, 2 and 6, creates hover effect on the nav links */
  a:hover, .contact:hover {
     box-shadow: 2px 2px 2px silver;
     background-color: silver;
     opacity: .7;
 }
+
+/* Graphic component 1, 2 and 6, creates hover effect on the nav links that makes them jolt to catch users attention*/
 .link:hover {
     border: 1px solid black;
-
 }
 
 /* Tablet */
+/* This will apply changes to layout if the viwewr screen is between the indicated sizes. */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
    
     main > p {
@@ -167,6 +180,7 @@ footer > nav >  div > a {
 }
    
 /*Desktop */
+/* This will apply changes to layout if the viwewr screen over the indicated size. */
 @media only screen and (min-width: 961px) {
        
     main > p {

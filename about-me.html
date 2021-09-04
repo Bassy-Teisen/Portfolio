@@ -1,28 +1,22 @@
-<!-- This is the HMTL DOCTYPE decleration, it defines which version of HTML it is to the web browser.    -->
 <!DOCTYPE html>
-<!-- This identifys the language type of the text.  -->
 <html lang="en">
-<!-- The head element contains the meta data and is not displayed on the screen.  -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- The title tag is presented in the browser title bar.
-    Also it is used by search engines and is crusal in SEO results. -->
     <title>about-me</title>
-    <!-- The link for the CSS stylesheet. -->
     <link rel="stylesheet" href="./about-me.css">
 </head>
 
-<!-- This is the element that contains all the veiwer screen visible content.  -->
 <body>
-    <!-- Created this div as a container for the grid layout.  -->
     <div>    
-        <!-- This element contains navigation links to the other pages.   -->
         <header>
+            <!-- Graphic component6, <a> tag wraps around the <img> tag to create a link back to home page -->            
             <a href="./index.html">
                 <img class="hover" src="./temp.png" alt="" >
             </a> 
+            <!-- Graphic component2, the <nav> tag is a container around the <a> tags which are links to the other pages.
+                 This enables me to stack them in a column. -->              
             <nav>
                 <a class="link" href="./index.html">Home</a>
                 <a class="link" href="./contact-me.html">Contact</a>
@@ -30,33 +24,31 @@
             </nav>
         </header>
         
-        <!-- This element contains the baulk of the content, such as:
-            - A header to define the current page.
-            - The home page image.
-            - A brief prargraph about myself and my work.   -->
         <main>
             <h1>About Me</h1>
             <img src="./s-cat.jpg" alt=""> 
-            <h2>Paragraph</h2>
+            <h2>Sebastian Teisen</h2>
+            <!-- Text component1: This component contains the main paragraph of this page and is the same on all four pages.  -->
             <p>Before I began studying with Coderacedemy I had been a carpenter for 15 years; in that time, I have worked for a variety of employers and in a variety of roles. For the last three years of my carrier, I was self-employed with up to 4 employees at a time. Being self-employed was the greatest challenge and most rewarding time of my carrier. In this role I had to wear many hats. I had to be a businessman, finding future work and negotiate price. A project manager communicating with clients and managing deadlines. A supervisor managing the day to day of construction. Also, I had to be a teacher whilst training my apprentices. </p>
             
-            <!-- This artcicle contains a brif praragraph about my resume and a link to my actual resume. -->
+            <!-- Text component2, this article contains a message abput paragraph about my resume  -->
             <article>   
-                <a href="./ocean.jpg">
+                <!-- Graphic component3, the <a> tag is wrapped around the <h4> and <img> tags as a link to my resume. -->
+                <a href="./randomres.jpg">
                 <img id="resume" src="./s-cat.jpg" alt="" >
                 <h4>Resume</h4>
                 </a>   
                 <p>To any one crazy enough to thinking of hiring me.<br >
                     Please find my attached resume.
-                    
                     </p>  
             </article>
         </main>    
         
-        <!-- This element contains links to other pages, who the author is and copyright data -->
         <footer>
             <nav>
                 <img src="./temp.png" alt="">
+                <!-- Graphic component1, the <div> tag is a container around the <a> tags which are links to the other pages.
+                    This enables me to stack them in a column. -->                
                 <div>
                     <a class="link" href="./index.html">Home</a>
                     <a class="link" href="./contact-me.html">Contact</a>

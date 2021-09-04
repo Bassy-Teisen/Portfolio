@@ -26,10 +26,12 @@ header{
     height: 100px;
 }
 
+/*  Graphic component2,component6, gave individual links some margin. */
 header > a {
     margin: 10px;
 }
 
+/* Graphic compnent2, component6, this conatins the style for the page header nav links */
 header > nav {
     margin: 2rem;
     display: flex;
@@ -40,6 +42,7 @@ header > nav {
     box-shadow: 1px 1px 1px;
 }
 
+/*  Graphic component2, component6, style for the individual links. */
 header > nav > a {
     padding: .3rem;
     text-decoration: none;
@@ -47,9 +50,12 @@ header > nav > a {
     font-weight: bold;
 }
 
-p, h1, h2, h3 {
+/* Text compont 1, 2, 3, Defines the text styling for all component paragraphs and <h> tags. */
+p, h1, h2, h3, h4 {
     font-family: Tahoma, Verdana, sans-serif;
+    font-style: normal;
 }
+
 main {
     display: flex;
     flex-direction: column ;
@@ -65,7 +71,14 @@ main > h2 {
 }
 
 main > img {
-    max-width: 500px; 
+    max-width: 700px; 
+ 
+}
+main > a {
+    border-radius: 5px;
+    border: 2px silver solid;
+    box-shadow: 1px 1px 1px;
+    
 }
 
 main > h1 {
@@ -74,6 +87,14 @@ main > h1 {
     padding: .3rem;
 }
 
+/*  The main paragraph component is applied on all web pages.
+    - Inside the <main> symantic element.
+    - Text is inside of <p> tag.
+    - This component is uniform acrros all four web pages.
+    - Made the background a light color and text black for readablilty.
+    - Applied Tahoma font-family for easy readability.
+    - Box-shadow used to define the text area. 
+    - Applied font-size 1.2rem for good readability */
 main > p {
     padding: .3rem;
     margin: 0 .5rem .5rem;
@@ -91,13 +112,11 @@ main h3 {
     font-weight: bold;
 }
 
-/*  The blog component contains the 5 most resent blogs.
-    - <div> element is used as a container for the component.
-    - Isolated individual blogs using <article> symantic element.
-    - The <image> and <h3> tag are used as a link to the actual blog.
-    - Applied border and box-shadow to define outline of link.
-    - Applied :hover effect to indicate link.
-    - Contains brief paragraph about the individual blog using the <p> tag */
+/*  Text component1, the main paragraph component is applied on all web pages.
+    - Made the background a light color and text black for readablilty.
+    - Applied Tahoma font-family for easy readability.
+    - Box-shadow used to define the text area. 
+    - Applied font-size 1.2rem for good readability */
 main > div {
     margin-top: 2rem;;
 }
@@ -109,7 +128,7 @@ article {
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
     color: black;
-    font-size: 1.3rem;
+    
     background-color: whitesmoke;  
     margin: 0.5rem; 
 }
@@ -169,17 +188,20 @@ footer > nav >  div > a {
     font-weight: bold;
 }
 
+/* Graphic component 1, 2 and 6, creates hover effect on the nav links */
  a:hover, .contact:hover {
     box-shadow: 2px 2px 2px silver;
     background-color: silver;
     opacity: .7;
 }
 
+/* Graphic component 1, 2 and 6, creates hover effect on the nav links that makes them jolt to catch users attention */
 .link:hover  {
         border: 1px solid black;
 
 }
 /* Tablet */
+/* This will apply changes to layout if the viwewr screen is between the indicated sizes. */
 @media only screen and (min-width: 481px) and (max-width: 960px) {  
     
     main > p {
@@ -211,6 +233,7 @@ footer > nav >  div > a {
 }
 
 /* Desktop */
+/* This will apply changes to layout if the viwewr screen over the indicated size. */
 @media only screen and (min-width: 961px) {
     
     
