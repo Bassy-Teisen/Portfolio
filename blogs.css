@@ -51,6 +51,17 @@ header > nav > a {
     font-weight: bold;
 }
 
+header > a {
+    padding: .3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px silver solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Text compont 1, 2, 3, Defines the text styling for all component paragraphs and <h> tags. */
 p, h1, h2, h3, h4 {
     font-family: Arial, Helvetica, sans-serif;
@@ -80,7 +91,9 @@ main > a {
     border-radius: 5px;
     border: 2px silver solid;
     box-shadow: 1px 1px 1px;
-    
+    background-color: whitesmoke;
+    width: 300px;
+    padding: 20px;
 }
 
 main > h1 {
@@ -91,7 +104,7 @@ main > h1 {
 
 /*  Text component1, the main paragraph component is applied on all web pages.
     - Made the background a light color and text black for readablilty.
-    - Applied Tahoma font-family for easy readability.
+    - Applied Arial font-family for easy readability.
     - Box-shadow used to define the text area. 
     - Applied font-size 1.2rem for good readability */
 main > p {
@@ -172,7 +185,7 @@ footer > nav {
     width: 100%;
 }   
 
-footer > nav > img {
+footer > nav > p {
     padding: 1rem;
 }
 

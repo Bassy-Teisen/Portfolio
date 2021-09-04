@@ -74,7 +74,7 @@ main > h2 {
 }
 
 main > img {
-    max-width: 500px;
+    max-width: 900px;
 }
 
 main > h1 {
@@ -84,7 +84,7 @@ main > h1 {
 }
 /*  Text component1, the main paragraph component is applied on all web pages.
     - Made the background a light color and text black for readablilty.
-    - Applied Tahoma font-family for easy readability.
+    - Applied Arial font-family for easy readability.
     - Box-shadow used to define the text area. 
     - Applied font-size 1.2rem for good readability */
     main > p {
@@ -113,7 +113,7 @@ footer > nav {
 }   
 
 
-footer > nav > img {
+footer > nav > p {
     padding: 1rem;
 }
 
