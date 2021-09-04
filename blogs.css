@@ -8,7 +8,7 @@
 /* Mobile  */
 body {
     height: 100vh;
-    background-image: url("./white2.jpg"); 
+    background-image: url("./tech.jpg"); 
 }
 
 body > div {
@@ -40,6 +40,7 @@ header > nav {
     border: 2px silver solid;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*  Graphic component2, component6, style for the individual links. */
@@ -52,8 +53,9 @@ header > nav > a {
 
 /* Text compont 1, 2, 3, Defines the text styling for all component paragraphs and <h> tags. */
 p, h1, h2, h3, h4 {
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    font-size: 1.3rem;
 }
 
 main {
@@ -87,10 +89,7 @@ main > h1 {
     padding: .3rem;
 }
 
-/*  The main paragraph component is applied on all web pages.
-    - Inside the <main> symantic element.
-    - Text is inside of <p> tag.
-    - This component is uniform acrros all four web pages.
+/*  Text component1, the main paragraph component is applied on all web pages.
     - Made the background a light color and text black for readablilty.
     - Applied Tahoma font-family for easy readability.
     - Box-shadow used to define the text area. 
@@ -112,15 +111,13 @@ main h3 {
     font-weight: bold;
 }
 
-/*  Text component1, the main paragraph component is applied on all web pages.
-    - Made the background a light color and text black for readablilty.
-    - Applied Tahoma font-family for easy readability.
-    - Box-shadow used to define the text area. 
-    - Applied font-size 1.2rem for good readability */
+/* Text component3, marrgin for the 5 blog articles  */
 main > div {
     margin-top: 2rem;;
 }
-
+/* Text component3, style for the 5 blog articles.
+    Created border with box-shadow to make the individual articles standout.
+    Used the same text as the other paragraphs  */
 article {
     display: flex;
     flex-wrap: wrap;
@@ -128,11 +125,12 @@ article {
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
     color: black;
-    
     background-color: whitesmoke;  
     margin: 0.5rem; 
 }
 
+/* Graphic component5, individual blog links are pronounsed an the article 
+    using border and box-shadow */
 article > a {
     display: flex;
     padding: .5rem;
@@ -142,14 +140,20 @@ article > a {
     box-shadow: 1px 1px 1px;
 
 }
-
+/* Text component3, gave some padding and margin for positioning. */
 article > p {
     padding: .5rem;
     margin: .5rem;
 }
+/* Graphic component5, the <a> tag wraps the <img> tag to creat a link using the image. */
+a > img {
+    width: 90%;
+}
+
 /* Class for blog component. */
+/* Graphic component5, fine tuned the position of the text in the blog link <a> tag */
 .blogs {
-    width: 50%;
+    width: 90%;
     flex-wrap: wrap;
     flex-direction: column-reverse;
 }
@@ -172,6 +176,8 @@ footer > nav > img {
     padding: 1rem;
 }
 
+/* Graphic component1, style for the page nav links in the footer.
+   I used border and box-shadow to make the links stand out. */
 footer > nav > div {
     border: 2px silver solid;
     border-radius: 5px;
@@ -179,6 +185,7 @@ footer > nav > div {
     margin-right: 2rem;
 }
 
+/* Graphic component1, stacked the links ontop of each other in a column. */
 footer > nav >  div > a {
     display: flex;
     flex-direction: column;
@@ -186,16 +193,17 @@ footer > nav >  div > a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Graphic component 1, 2 and 6, creates hover effect on the nav links */
+/* Graphic component 1, 2, 5 and 6, creates hover effect on the nav links */
  a:hover, .contact:hover {
     box-shadow: 2px 2px 2px silver;
     background-color: silver;
     opacity: .7;
 }
 
-/* Graphic component 1, 2 and 6, creates hover effect on the nav links that makes them jolt to catch users attention */
+/* Graphic component 1, 2, and 6, creates hover effect on the nav links that makes them jolt to catch users attention */
 .link:hover  {
         border: 1px solid black;
 

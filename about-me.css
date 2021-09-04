@@ -9,7 +9,7 @@
 /* Mobile  */
 body {
     height: 100vh;
-    background-image: url("./white2.jpg"); 
+    background-image: url("./tech.jpg"); 
 }
 
 body > div {
@@ -40,6 +40,7 @@ header > nav {
     border: 2px silver solid;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*  Graphic component2, component6, style for the individual links. */
@@ -50,10 +51,11 @@ header > nav > a {
     font-weight: bold;
 }
 
-/* Text compont 1, 2, 3, Defines the text styling for all component paragraphs and <h> tags. */
+/* Text compont 1, 2, Defines the text styling for all component paragraphs and <h> tags. */
 p, h1, h2, h3 {
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    font-size: 1.3rem;
 }
 
 main {
@@ -71,7 +73,7 @@ main > h2 {
 }
 
 main > img {
-    max-width: 500px;   
+    max-width: 90%;   
 }
 
 main > h1 {
@@ -95,13 +97,7 @@ main > p {
     background-color: whitesmoke;
 }
 
-/*  The about-me compenent is a link to my resume.
-    - Appled <article> symantic element to contain the image, link and paragraph.
-    - Contains a h4 stating resume and an <img> as part of 
-    the link, which has an id="resume" tag.
-    - Has :hover effect to indicate that it can be clicked.
-    - Applied box-shadow to make it stand out.
-    - A brif paragraph about me and my resume. */
+/*  Text component2, position and style for the resume paragraph and resume link. */
 main > article {
     display: flex;
     margin-top: 10px;
@@ -114,27 +110,48 @@ main > article {
     background-color: whitesmoke;
 }
 
+/*  Text component2, added some padding to fine tune text position */
 main > article > p {
     padding: 0.5rem;
 }   
 
+/* Graphic component3, the resume link. Gave the text a red color to draw 
+   attention to the link, both the text and image are part of the resume link. */
 article > a > h4 {
     display: flex;
     justify-content: center;
     color: red;
 }
 
+/* Graphic component3, resume link has boder and box-shadow to outline the link. */
 article > a {
     border: 2px silver solid;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
 }
 
+/* Graphic component3, fine tune position of resume image.  */
 #resume {
     width: 100px;
     padding: 0.5rem 0.5rem 0 0.5rem;
 }
 
+main > div {
+    /* display: flex; */
+    margin: 1rem .5rem 0 .5rem;
+    padding: .3rem;
+    border: 2px silver solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+    color: black;
+    background-color: whitesmoke;
+    
+}
+
+main > div > h2 {
+    justify-content: flex-end;
+
+}
 footer {
     display: flex;
     align-items: center;
@@ -153,6 +170,8 @@ footer > nav > img {
     padding: 1rem;
 }
 
+/* Graphic component1, style for the page nav links in the footer.
+   I used border and box-shadow to make the links stand out. */
 footer > nav > div {
     border: 2px silver solid;
     border-radius: 5px;
@@ -160,6 +179,7 @@ footer > nav > div {
     margin-right: 2rem;
 }
 
+/* Graphic component1, stacked the links ontop of each other in a column. */
 footer > nav >  div > a {
     display: flex;
     flex-direction: column;
@@ -167,6 +187,7 @@ footer > nav >  div > a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Graphic component 1, 2 and 6, creates hover effect on the nav links */
@@ -186,14 +207,23 @@ a:hover, .contact:hover {
 @media only screen and (min-width: 481px) and (max-width: 960px) {
 
     main > p {
-        margin: 1.5rem auto 1.5rem;
+        margin-left: 1%;
         max-width: 90%;
+        margin-bottom: 1rem;
     }    
     main > article {
-        width: 90% ;
+        width: 70%;
         padding: .5rem;
-        margin: 1.5rem auto 1.5rem;
-    }     
+        align-self: start;
+        margin-left: 5%;
+        margin-bottom: .7rem;
+    }  
+    main > div {
+        margin-left: 1%;
+        max-width: 90%;
+        margin-bottom: 1rem;
+    }
+    
 }
      
 /*Desktop */
@@ -209,6 +239,10 @@ a:hover, .contact:hover {
         align-self: flex-start;
         padding: .5rem;
         margin: 1.5rem 18%;
+    }
+    main > div {
+        padding: .5rem;
+        margin: 0 18%;
     }   
 }
 

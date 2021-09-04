@@ -9,7 +9,7 @@
 /* Mobile  */
 body {
     height: 100vh;
-    background-image: url("./white2.jpg");
+    background-image: url("./tech.jpg"); 
 }
 
 body > div {
@@ -48,12 +48,14 @@ header > nav > a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Text compont 1, 2, 3, Defines the text styling for all component paragraphs and <h> tags. */
 p, h1, h2, h3 {
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    font-size: 1.3rem;
 }
 
 main {
@@ -97,23 +99,21 @@ main > p {
     background-color: whitesmoke;
 }
 
-/*  The contact-me component is a link to my contact details.
-    - <nav> symantic element is used to contain both contact details links.
-    - <a> tag used for invidual contact details links.
-    - :hover effect is applied when moused over.
-    - Applied border and box-shadow to define outline of link.
-    - Links to my email and phone number.  */
+/* Graphic componen4, this is the nav links to my contacts.
+   Positioned the links in the center of view so that their easy to notice
+    */
 main > nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: black;
     font-weight: bold;
     margin-top: 1rem;
     
 }
 
-/*  Class for contact list component. */
+/*  Graphic componen4, class for contact list component.
+    made the links stand out with border and box-shadow.
+    Gave the links enough margin to space the links oviuosly appart.  */
 .contact {
     border-radius: 5px;
     box-shadow: 1px 1px 1px silver;
@@ -122,6 +122,8 @@ main > nav {
     padding: .25rem;
     
 }
+
+
 
 footer {
     display: flex;
@@ -141,13 +143,15 @@ footer > nav > img {
     padding: 1rem;
 }
 
+/* Graphic component1, style for the page nav links in the footer.
+   I used border and box-shadow to make the links stand out. */
 footer > nav > div {
     border: 2px silver solid;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
     margin-right: 2rem;
 }
-
+/* Graphic component1, stacked the links ontop of each other in a column. */
 footer > nav >  div > a {
     display: flex;
     flex-direction: column;
@@ -155,6 +159,7 @@ footer > nav >  div > a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Graphic component 1, 2 and 6, creates hover effect on the nav links */

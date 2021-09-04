@@ -9,7 +9,7 @@
 /*  Mobile first design. */
 body {
     height: 100vh;
-    background-image: url("./white2.jpg"); 
+    background-image: url("./tech.jpg"); 
 }
 body > div {
     display: grid;
@@ -40,6 +40,7 @@ header > nav {
     border: 2px silver solid;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*  Graphic component2, style for the individual links. */
@@ -51,10 +52,11 @@ header > nav > a {
   
 }
 
-/* Text compont 1, 2, 3, Defines the text styling for all component paragraphs and <h> tags. */
+/* Text compont 1, 2, Defines the text styling for all component paragraphs and <h> tags. */
 p, h1, h2, h3 {
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    font-size: 1.3rem;
 }
 
 main {
@@ -102,7 +104,7 @@ footer {
     opacity: .7;
 }
 
-/*  Graphic component1, style for positioning the links witin the footer */
+/*  Graphic component1, style for positioning the links within the footer */
 footer > nav {
     display: flex;
     justify-content: space-between;
@@ -115,7 +117,8 @@ footer > nav > img {
     padding: 1rem;
 }
 
-/* Graphic component1, style for the page nav link. */
+/* Graphic component1, style for the page nav links in the footer.
+   I used border and box-shadow to make the links stand out. */
 footer > nav > div {
     border: 2px silver solid;
     border-radius: 5px;
@@ -131,6 +134,7 @@ footer > nav >  div > a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Graphic component 1 and 2, creates hover effect on the nav links */
