@@ -1,4 +1,5 @@
 
+/* The * element makes these properties apply to the entire page. */
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +7,22 @@
 
 }
 
-/* Mobile  */
+/*  Mobile first design. */
+/*  The body element defines the layaout of page.
+    Also the background image is defined in this element.*/
 body {
     height: 100vh;
     background-image: url("./white2.jpg"); 
 }
-
+/*  The div element has been used as a grid container to display
+    three rows for the header, main(set as auto size to fill the page) and footer elements.*/
 body > div {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 50px auto 100px ;
 }   
+
 
 header{
     display: flex;
@@ -26,10 +31,12 @@ header{
     height: 100px;
 }
 
+/*  This component contains the icon, which is a link to the home page  */
 header > a {
     margin: 10px;
 }
 
+/*  Used to position and style the nav links.  */
 header > nav {
     margin: 2rem;
     display: flex;
@@ -40,7 +47,7 @@ header > nav {
     box-shadow: 1px 1px 1px;
 }
 
-
+/*  This component contains navigation links to the other web pages. */
 header > nav > a {
     padding: .3rem;
     text-decoration: none;
@@ -48,6 +55,7 @@ header > nav > a {
     font-weight: bold;
 }
 
+/*  Defines the text styling for all paragraphs. */
 p, h1, h2, h3 {
     font-family: Tahoma, Verdana, sans-serif;
 }
@@ -66,6 +74,7 @@ main > h2 {
     padding: .4rem;
 }
 
+/*  Main image of page. */
 main > img {
     max-width: 500px;
 }
@@ -75,7 +84,12 @@ main > h1 {
     font-weight: bold;
     padding: .3rem;
 }
-
+/*  The main paragraph component is applied on all web pages.
+    - Inside the <main> symantic element
+    - Styled this component uniformially acrros all four web page
+    - Made the background a light color and text black for readablilty.
+    - styled the text for good readability.
+    - Box-shadow used to define the text area. */
 main > p {
     padding: .3rem;
     margin: 0 .5rem 0 .5rem;
@@ -94,6 +108,7 @@ footer {
     opacity: .7;
 }
 
+/*  Navigation link to other pages. */
 footer > nav {
     display: flex;
     justify-content: space-between;
@@ -101,6 +116,7 @@ footer > nav {
     width: 100%;
 }   
 
+/*  Used to position the page nav links. */
 footer > nav > img {
     padding: 1rem;
 }
@@ -112,6 +128,7 @@ footer > nav > div {
     margin-right: 2rem;
 }
 
+/*  Used to display the page links in a horizontal position. */
 footer > nav >  div > a {
     display: flex;
     flex-direction: column;
@@ -121,6 +138,7 @@ footer > nav >  div > a {
     font-weight: bold;
 }
 
+/*  Creates a hover effect when moused over, I used this to indicate links. */
 .hover:hover, a:hover, .contact:hover {
     border: 1px solid black;
     box-shadow: 2px 2px 2px silver;
@@ -129,6 +147,7 @@ footer > nav >  div > a {
 }
 
 /* Tablet */
+/* This will apply changes to layout if the viwewr screen is between the indicated sizes. */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
     
     main > p {
@@ -137,8 +156,10 @@ footer > nav >  div > a {
     }        
 }
    
-     
+   
+
 /*Desktop */
+/* This will apply changes to layout if the viwewr screen over the indicated size. */
 @media only screen and (min-width: 961px) {
        
     main > p {

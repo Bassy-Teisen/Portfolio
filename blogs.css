@@ -91,6 +91,13 @@ main h3 {
     font-weight: bold;
 }
 
+/*  The blog component contains the 5 most resent blogs.
+    - <div> element is used as a container for the component.
+    - Isolated individual blogs using <article> symantic element.
+    - The <image> and <h3> tag are used as a link to the actual blog.
+    - Applied border and box-shadow to define outline of link.
+    - Applied :hover effect to indicate link.
+    - Contains brief paragraph about the individual blog using the <p> tag */
 main > div {
     margin-top: 2rem;;
 }
@@ -111,14 +118,17 @@ article > a {
     display: flex;
     padding: .5rem;
     justify-content: center;
- 
+    border-radius: 5px;
+    border: 2px silver solid;
+    box-shadow: 1px 1px 1px;
+
 }
 
 article > p {
     padding: .5rem;
     margin: .5rem;
 }
-
+/* Class for blog component. */
 .blogs {
     width: 50%;
     flex-wrap: wrap;

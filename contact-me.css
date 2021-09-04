@@ -87,20 +87,29 @@ main > p {
     background-color: whitesmoke;
 }
 
-main > div {
+/*  The contact-me component is a link to my contact details.
+    - <nav> symantic element is used to contain both contact details links.
+    - <a> tag used for invidual contact details links.
+    - :hover effect is applied when moused over.
+    - Applied border and box-shadow to define outline of link.
+    - Links to my email and phone number.  */
+main > nav {
     display: flex;
     flex-direction: column;
     color: black;
     font-weight: bold;
     margin-top: 1rem;
+    
 }
 
+/*  Class for contact list component. */
 .contact {
     border-radius: 5px;
     box-shadow: 1px 1px 1px silver;
     margin: 1rem 1rem 1rem 0;
     border: 2px silver solid;
-    padding: .25rem;;
+    padding: .25rem;
+    
 }
 
 footer {

@@ -1,14 +1,24 @@
+<!-- This is the HMTL DOCTYPE decleration, it defines which version of HTML it is to the web browser.    -->
 <!DOCTYPE html>
+<!-- This identifys the language type of the text.  -->
 <html lang="en">
+<!-- The head element contains the meta data and is not displayed on the screen.  -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title tag is presented in the browser title bar.
+    Also it is used by search engines and is crusal in SEO results. -->
+    <!-- The link for the CSS stylesheet. -->
     <title>blogs</title>
     <link rel="stylesheet" href="./blogs.css">
 </head>
+
+<!-- This is the element that contains all the veiwer screen visible content.  -->
 <body>
+    <!-- Created this div as a container for the grid layout.  -->
     <div >    
+        <!-- This element contains navigation links to the other pages.   -->
         <header>
             <a class="hover" href="./index.html">
                 <img src="./temp.png" alt="" >
@@ -19,6 +29,11 @@
                 <a class="link" href="./contact-me.html">Contact</a>
             </nav>
         </header>
+        
+        <!-- This element contains the baulk of the content, such as:
+            - A header to define the current page.
+            - The home page image.
+            - A brief prargraph about myself and my work.   -->
         <main>
             <h1>Blogs</h1>
             <img src="./s-cat.jpg" alt=""> 
@@ -27,7 +42,11 @@
                Quibusdam similique sit cum ipsam eaque ullam ab fugiat qui laborum
                 magnam! Qui illo adipisci itaque alias nulla, temporibus consequuntur reiciendis voluptatibus.
             </p>
+            
+            <!-- I used a div to contain the group of blog articles. -->
             <div>
+            <!-- These five articles contain a brief paragraph about their individual blogs, the date they were posted
+            and an image as link to the actual blog post. -->
             <article>   
                 <a class="blogs" href="./contact.html">
                     <h3>Most Resent Blog</h3>
@@ -58,7 +77,6 @@
                 </a>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus fugit cumque dolorem obcaecati, sequi ea eius corrupti rem quaerat iusto sunt harum excepturi consequuntur dignissimos soluta veniam doloremque incidunt expedita.</p>  
             </article>
-            
             <article>   
                 <a class="blogs" href="./contact.html">
                     <h3>Most Resent Blog</h3>   
@@ -68,6 +86,8 @@
             </article>    
             </div>    
         </main>    
+        
+        <!-- This element contains links to other pages, who the author is and copyright data -->
         <footer>
             <nav>
                 <img src="./temp.png" alt="">
