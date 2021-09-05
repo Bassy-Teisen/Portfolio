@@ -1,0 +1,131 @@
+commit fd5c9e04aeb73cff09b695535842f65c84908b4d
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sun Sep 5 20:51:12 2021 +1000
+
+    Final for assessment
+
+commit 02d896e62c79c5f524193079f8ca56dff82a7b1a
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sun Sep 5 15:38:34 2021 +1000
+
+    Final commit for Sunday
+
+commit 1bf8db88346162872e4e0841322baea07e048198
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sun Sep 5 14:42:44 2021 +1000
+
+    Final upload test
+
+commit 55ad447d499cbd5160e3446e42f00ca41007d1a7
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sun Sep 5 12:45:18 2021 +1000
+
+    Third commit Sunday
+
+commit bc933ab1363320e9ebb66cae29ff2cb6ed5c0643
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sun Sep 5 10:30:18 2021 +1000
+
+    Second sunday commit
+
+commit bc2be4a906059b46fe3c1a4596857b1067434f44
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sun Sep 5 09:50:50 2021 +1000
+
+    First Sunday commit
+
+commit afcdd636c3b18cb4f71cdf6a2fbed52a7758bd6b
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sat Sep 4 22:02:02 2021 +1000
+
+    Last commit for saturday
+
+commit d45b224c33610e45116fe1681ba390e8f0961b32
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sat Sep 4 19:05:07 2021 +1000
+
+    Fourth Saturday commit
+
+commit 2dfaaa616a5c46ff35e2160ddd56860424abe991
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sat Sep 4 16:18:05 2021 +1000
+
+    Third Saturday commit
+
+commit 3beccfed5794dd807616356ea319e097230e3c7b
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sat Sep 4 14:29:25 2021 +1000
+
+    Seocnd Saturday commit
+
+commit cedce2387b04466476213dcbf1e94ab9c93c7206
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Sat Sep 4 12:04:48 2021 +1000
+
+    First commit of saturday
+
+commit 7cf64fd25fb93460acf48b59a36a393057962de0
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Fri Sep 3 15:47:15 2021 +1000
+
+    Last commit of day
+
+commit 0d6b067e92dc18aa948056a12c034ae6d46b2f2b
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Fri Sep 3 15:14:28 2021 +1000
+
+    Tenth commit
+
+commit 052f1cc9d6d161d70b65b511906574689cb1fdb1
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Fri Sep 3 14:41:05 2021 +1000
+
+    Final touches to how it works
+
+commit 00fc5c7f758e4e2bebfcbdb2fe5a275bb242638f
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Fri Sep 3 12:18:46 2021 +1000
+
+    Altered all the pages for DRY
+
+commit c17f40787fd14f27ea88cac1c100967d3bc25578
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Fri Sep 3 11:26:56 2021 +1000
+
+    Fixed blogs size issue version portfolio
+
+commit 3dda37423b89fd20349a7536e5ad05e1c83f5fbc
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Thu Sep 2 21:56:56 2021 +1000
+
+    Sixth commit problem with blog page width
+
+commit 52963bb54fa16bfb4733f4a5deabb53d28ac257a
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Thu Sep 2 16:21:42 2021 +1000
+
+    Fith commit
+
+commit eb2ca88c8b3b412dd79323e022b8c67de5af46de
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Thu Sep 2 15:48:07 2021 +1000
+
+    Fourth commit
+
+commit d67b46ee13ca6446f065019c6cb58b5ab7c4a3b2
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Thu Sep 2 15:00:53 2021 +1000
+
+    Third commit
+
+commit 878506f5e5fab28dc0e52d6e3117d2759cb0ee16
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Thu Sep 2 14:35:11 2021 +1000
+
+    Second commit
+
+commit f6f5d86f4a601c98a1a236681b9903522be6d45f
+Author: Bassy_Teisen <cab022111@coderacademy.edu.au>
+Date:   Thu Sep 2 14:10:00 2021 +1000
+
+    init commit
