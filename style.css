@@ -9,7 +9,7 @@
 /*  Mobile first design. */
 body {
     height: 100vh;
-    background-image: url("./tech.jpg"); 
+    background-image: url("./tech.jpeg"); 
 }
 body > div {
     display: grid;
@@ -161,7 +161,7 @@ footer > nav >  div > a {
 
 
 /* Tablet */
-/* This will apply changes to layout if the viwewr screen is between the indicated sizes. */
+/* This will apply changes to layout if the viewer screen is between the indicated sizes. */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
     
     main > p {
@@ -173,7 +173,7 @@ footer > nav >  div > a {
    
 
 /*Desktop */
-/* This will apply changes to layout if the viwewr screen over the indicated size. */
+/* This will apply changes to layout if the viewer screen is over the indicated size. */
 @media only screen and (min-width: 961px) {
        
     main > p {

@@ -8,7 +8,7 @@
 /* Mobile  */
 body {
     height: 100vh;
-    background-image: url("./tech.jpg"); 
+    background-image: url("./tech.jpeg"); 
 }
 
 body > div {
@@ -31,7 +31,7 @@ header > a {
     margin: 10px;
 }
 
-/* Graphic compnent2, component6, this conatins the style for the page header nav links */
+/* Graphic compnent2, component6, this contains the style for the page header nav links */
 header > nav {
     margin: 2rem;
     display: flex;
@@ -124,7 +124,7 @@ main h3 {
     font-weight: bold;
 }
 
-/* Text component3, marrgin for the 5 blog articles  */
+/* Text component3, margin for the 5 blog articles  */
 main > div {
     margin-top: 2rem;;
 }
@@ -158,7 +158,7 @@ article > p {
     padding: .5rem;
     margin: .5rem;
 }
-/* Graphic component5, the <a> tag wraps the <img> tag to creat a link using the image. */
+/* Graphic component5, the <a> tag wraps the <img> tag to create a link using the image. */
 a > img {
     width: 90%;
 }
@@ -232,7 +232,7 @@ footer > nav >  div > a {
 
 
 /* Tablet */
-/* This will apply changes to layout if the viwewr screen is between the indicated sizes. */
+/* This will apply changes to layout if the viewer screen is between the indicated sizes. */
 @media only screen and (min-width: 481px) and (max-width: 960px) {  
     
     main > p {
@@ -264,7 +264,7 @@ footer > nav >  div > a {
 }
 
 /* Desktop */
-/* This will apply changes to layout if the viwewr screen over the indicated size. */
+/* This will apply changes to layout if the viewer screen over the indicated size. */
 @media only screen and (min-width: 961px) {
     
     

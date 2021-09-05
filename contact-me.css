@@ -9,7 +9,7 @@
 /* Mobile  */
 body {
     height: 100vh;
-    background-image: url("./tech.jpg"); 
+    background-image: url("./tech.jpeg"); 
 }
 
 body > div {
@@ -31,7 +31,7 @@ header > a {
     margin: 10px;  
 }
 
-/* Graphic compnent2, component6, this conatins the style for the page header nav links */
+/* Graphic component2, component6, this conatins the style for the page header nav links */
 header > nav {
     margin: 2rem;
     display: flex;
@@ -111,8 +111,8 @@ main > p {
     background-color: whitesmoke;
 }
 
-/* Graphic componen4, this is the nav links to my contacts.
-   Positioned the links in the center of view so that their easy to notice
+/* Graphic component4, this is the nav links to my contacts.
+   Positioned the links in the center of view so that they are easy to notice
     */
 main > nav {
     display: flex;
@@ -122,7 +122,7 @@ main > nav {
     
 }
 
-/*  Graphic componen4, class for contact list component.
+/*  Graphic component4, class for contact list component.
     Made the links stand out with border and box-shadow.
     Gave the links enough margin to space the links appart.  */
 .contact {
@@ -194,7 +194,7 @@ footer > nav >  div > a {
 }
 
 /* Tablet */
-/* This will apply changes to layout if the viwewr screen is between the indicated sizes. */
+/* This will apply changes to layout if the viewer screen is between the indicated sizes. */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
    
     main > p {
@@ -204,7 +204,7 @@ footer > nav >  div > a {
 }
    
 /*Desktop */
-/* This will apply changes to layout if the viwewr screen over the indicated size. */
+/* This will apply changes to layout if the viewer screen over the indicated size. */
 @media only screen and (min-width: 961px) {
        
     main > p {
