@@ -155,7 +155,7 @@ article > a {
     - Applied Arial font-family for easy readability.
     - Box-shadow used to define the text area. 
     - Applied font-size 1.2rem for good readability */  
-main > div {
+main > section {
     margin: 1rem .5rem 0 .5rem;
     padding: .3rem;
     border: 2px silver solid;
@@ -167,7 +167,7 @@ main > div {
 }
 
 /* Text component4, display the h2 inside of the container.  */
-main > div > h2 {
+main > section > h2 {
     justify-content: flex-end;
 
 }
@@ -247,7 +247,7 @@ a:hover, .contact:hover {
         margin-left: 5%;
         margin-bottom: .7rem;
     }  
-    main > div {
+    main > section {
         margin-left: 1%;
         max-width: 90%;
         margin-bottom: 1rem;
@@ -269,7 +269,7 @@ a:hover, .contact:hover {
         padding: .5rem;
         margin: 1.5rem 18%;
     }
-    main > div {
+    main > section {
         padding: .5rem;
         margin: 0 18%;
     }   
