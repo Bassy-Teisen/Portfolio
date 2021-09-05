@@ -81,6 +81,7 @@ main > h2 {
     color: black;
     font-weight: bold;
     padding: .4rem;
+    margin-top: 3%;
 }
 
 main > img {
@@ -118,13 +119,12 @@ main > nav {
     flex-direction: row;
     justify-content: center;
     font-weight: bold;
-    margin-top: 1rem;
     
 }
 
 /*  Graphic componen4, class for contact list component.
-    made the links stand out with border and box-shadow.
-    Gave the links enough margin to space the links oviuosly appart.  */
+    Made the links stand out with border and box-shadow.
+    Gave the links enough margin to space the links appart.  */
 .contact {
     border-radius: 5px;
     box-shadow: 1px 1px 1px silver;
@@ -173,16 +173,24 @@ footer > nav >  div > a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Graphic component 1, 2 and 6, creates hover effect on the nav links */
+/* Graphic component 1, 2, 4 and 6, creates hover effect on the nav links */
  a:hover, .contact:hover {
     box-shadow: 2px 2px 2px silver;
     background-color: silver;
     opacity: .7;
 }
 
-/* Graphic component 1, 2 and 6, creates hover effect on the nav links that makes them jolt to catch users attention*/
+/* Graphic component 1, 2, 4 and 6, creates hover effect on the nav links that makes them jolt to catch users attention*/
 .link:hover {
     border: 1px solid black;
+}
+
+.link:visited,  a:visited, .contact:visited {
+    color: purple;
+}
+
+.link:active, a:active, .contact:active {
+    color: red;
 }
 
 /* Tablet */

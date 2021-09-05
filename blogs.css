@@ -221,6 +221,16 @@ footer > nav >  div > a {
         border: 1px solid black;
 
 }
+
+.link:visited,  a:visited, .contact:visited {
+    color: purple;
+}
+
+.link:active, a:active, .contact:active {
+    color: red;
+}
+
+
 /* Tablet */
 /* This will apply changes to layout if the viwewr screen is between the indicated sizes. */
 @media only screen and (min-width: 481px) and (max-width: 960px) {  
